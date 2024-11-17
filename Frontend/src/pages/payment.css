@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.pay-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: url(../assets/all-images/payment\ imgaes.jpg);
+  background-size: 200px;
+ 
+}
+
+.pay-container form{
+  padding:20px;
+  width:700px;
+  background: linear-gradient( white , red);
+  backdrop-filter: blur(10%);
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.pay-container form .pay-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.pay-container form .pay-row .pay-col{
+  flex:1 1 250px;
+}
+
+.pay-container form .pay-row .pay-col .pay-title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.pay-container form .pay-row .pay-col .pay-inputBox{
+  margin:15px 0;
+}
+
+.pay-container form .pay-row .pay-col .pay-inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.pay-container form .pay-row .pay-col .pay-inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.pay-container form .pay-row .pay-col .pay-inputBox input:focus{
+  border:1px solid #000;
+}
+
+.pay-container form .pay-row .pay-col .pay-flex{
+  display: flex;
+  gap:15px;
+}
+
+.pay-container form .pay-row .pay-col .pay-flex .pay-inputBox{
+  margin-top: 5px;
+}
+
+.pay-container form .pay-row .pay-col .pay-inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.pay-container form .pay-submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #27ae60;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.pay-container form .pay-submit-btn:hover{
+  background: #2ecc71;
+}
